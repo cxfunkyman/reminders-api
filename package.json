@@ -1,0 +1,22 @@
+{
+  "name": "reminders-api",
+  "version": "1.0.0",
+  "description": "1- to use node with typescript file we have 2 options:\r     1.1- compile tsc index.ts to index.js and then node index.js\r     1.2- or npm init -y",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.11",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
