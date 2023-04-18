@@ -2,6 +2,7 @@
     1.1- compile tsc index.ts to index.js and then node index.js
     1.2- or npm init -y to generate a basic package.json file
         1.2.1- as a development dependency (-D) install npm i -D ts-node
+
 2- now on package.json
     2.1- "scripts": {
             "test": "echo \"Error: no test specified\" && exit 1"
